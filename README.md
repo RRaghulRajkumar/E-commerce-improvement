@@ -15,8 +15,6 @@ The purpose of this repository is to demonstrate how [ZenML](https://github.com/
 Let's jump into the Python packages you need. Within the Python environment of your choice, run:
 
 ```bash
-git clone https://github.com/zenml-io/zenml-projects.git
-cd zenml-projects/customer-satisfaction
 pip install -r requirements.txt
 ```
 
@@ -47,7 +45,6 @@ zenml stack register mlflow_stack -a default -o default -d mlflow -e mlflow_trac
 
 We had written a blog that explains this project in-depth: [Predicting how a customer will feel about a product before they even ordered it](https://blog.zenml.io/customer_satisfaction/).
 
-If you'd like to watch the video that explains the project, you can watch the [video](https://youtu.be/L3_pFTlF9EQ).
 
 ## :thumbsup: The Solution
 
@@ -113,7 +110,7 @@ python run_deployment.py
 
 ## 🕹 Demo Streamlit App
 
-There is a live demo of this project using [Streamlit](https://streamlit.io/) which you can find [here](https://share.streamlit.io/ayush714/customer-satisfaction/main). It takes some input features for the product and predicts the customer satisfaction rate using the latest trained models. If you want to run this Streamlit app in your local system, you can run the following command:-
+There is a live demo of this project using [Streamlit](https://streamlit.io/). It takes some input features for the product and predicts the customer satisfaction rate using the latest trained models. If you want to run this Streamlit app in your local system, you can run the following command:-
 
 ```bash
 streamlit run streamlit_app.py
