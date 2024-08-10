@@ -155,6 +155,6 @@ streamlit run streamlit_app.py
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## App Video
-[![Watch the video](Demo/Screenshot1.png)](Demo/customersatisfaction.mov)
+[![Watch the video](Demo/Screenshot1.png)](https://youtu.be/zi0KJ4J58Fo)
 
 
